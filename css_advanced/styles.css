@@ -1,0 +1,100 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.first-one h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.first-one button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first-one button:hover {
+    background-color: blue;
+}
+.button {
+    background-color: violet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+.horizontal section {
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.horizontal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.sub-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sub-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sub-box h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.sub-box p {
+    font-size: 14px;
+    color: #777;
+}
+
+.first-background {
+    background-image: url(images/background\ image\ smile.jpeg);
+}
