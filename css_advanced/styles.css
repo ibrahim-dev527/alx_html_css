@@ -98,3 +98,26 @@
 .first-background {
     background-image: url(images/background\ image\ smile.jpeg);
 }
+
+.image-text-selection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(122, 10, 122);
+}
+
+.image-text-selection .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-text-selection .left img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+
+}
