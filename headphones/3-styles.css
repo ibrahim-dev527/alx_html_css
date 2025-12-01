@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    border: none;
+     background-color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    padding: 1px 30px;
+    
+    
+}
+
+.heading {
+    display: fle;
+    font-size: 20px;
+    padding: 1px 30px;
+    margin-left: 20px;
+
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    right: 10px;
+    justify-content: space-between;
+    
+}
+
+#name {
+    margin-top: 10px;
+}
+
+#email {
+    margin-top: 10px;
+}
+
+#message {
+    margin-top: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #d4d1d1;
+    padding: 6px 0;
+    outline: none;
+}
+
+.cta-btn {
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: #ff5f5f;
+    margin-left: 60px;
+    margin-top: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 10px;
+}

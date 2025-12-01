@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff6565;
+}
+
+.content {
+    text-align: center;
+    margin-top: 320px;
+    color: white;
+    
+}
+
+.content h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.content h5 {
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background: #ff5f5f;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.cta-button:hover {
+    background: #ff6565;
+}
+
+.paragraph {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #ccc;
+
+}
+
+
+body {
+    background-image: url(images/headphones_hero_1.jpg);
+    padding: 10px;
+}
+
+.close-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.humburger {
+    display: none;
+    
+    right: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navigation {
+        padding: 10px;
+    }
+
+    
+    .nav-links a {
+        display: flex;}
+        .hero {
+            padding: 20px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+    }
+
+.content p {
+    font-size: 14px;
+}
+
+.content {
+    margin-top: 200px;
+    
+}
+
+.nav-links {
+    display: none;
+    position: static;
+    background: none;
+    flex-direction: row;
+    width: auto;
+    padding: 0;
+    color: white;
+}
+
+.nav-links a {
+     border: none;
+     margin-left: 20px;
+}
+
+.humburger {
+    right: 30px;
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+}
+
+}
