@@ -3,68 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project</title>
+    <link rel="stylesheet" href="0-styles.css">
+    <link rel="stylesheet" href="1-styles.css">
+    <link rel="stylesheet" href="2-styles.css">
+    <link rel="stylesheet" href="3-styles.css">
+    <link rel="stylesheet" href="4-styles.css">
 </head>
 <body>
     
-    <header>
-        <div>
-            <div>
-                <img src="images/logo_headphones.png" alt="Logo">
+   <header class="hero">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="images/logo_headphones.png" width="150" alt="Logo">
             </div>
-            <nav>
-                <a href="#what we do">What we do</a>
-                <a href="#our results">Our results</a>
-                <a href="contact us">Contact Us</a>
-            </nav>
+              
 
-            <section>
-                <div>
+                 <div class="humburger">
+                 =
+
+                 </div>
+
+                 <div class="close-menu">
+                    X
+                 </div>
+              <ul class="nav-links" id="Nav-links">
+              <li>  <a href="#what we do">What we do</a></li>
+               <li> <a href="#our results">Our results</a></li>
+                <li><a href="contact us">Contact Us</a></li>
+              </ul>
+        </nav>
+
+            <section class="content">
+            
                     <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
                     <h5>Lorem ipsum dolor sit, amet consectetur adipisicing.</h5>
-                    <button>Call to action</button>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores dolores commodi, 
+                    <button class="cta-button">Call to action</button>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores dolores commodi, 
                         <br>quo eos illum praesentium iusto corrupti, eveniet magni aut atque architecto nisi placeat aperiam 
                         <br>ullam consequuntur maiores sequi mollitia. Veniam harum perspiciatis, impedit quae itaque 
                         <br>perferendis error ullam. Quia voluptatibus nam eligendi? Repellat qui aliquam odit inventore iusto.</p>
-                </div>
+                
             </section>
-    
+        
     </header>
 
-    <main>
-       
-         <section class="second-box">
+
+    <section class="second-box">
       <div>
          <h2>what we do...</h2>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure labore,<br>
+         <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure labore,<br>
              quisquam laborum in voluptas eius, quae, sint quos nesciunt officia<br>
               voluptatem. Facilis debitis, et est ad dolor molestiae similique<br>
                veritatis. Culpa harum sapiente porro delectus corporis<br>
                 necessitatibus iste explicabo sed.</p>
        </div>
 
-       <div>
+       <div class="icons">
            <div>
-             <img src="" alt="">
+             <img src="images/frequency.png" width="60" alt="">
              <h4>Lorem, ipsum.</h4>
              <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit.</p>
            </div>
            <div>
-             <img src="" alt="">
+             <img src="images/movie svg.png" width="50" alt="">
              <h4>Lorem, ipsum.</h4>
              <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit.</p>
            </div>
            <div>
-             <img src="" alt="">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" width="50" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z" />
+</svg>
+
              <h4>Lorem, ipsum.</h4>
              <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit.</p>
            </div>
            <div>
-             <img src="" alt="">
+             <img src="images/ear.png" width="60" alt="ear">
              <h4>Lorem, ipsum.</h4>
              <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit.</p>
@@ -72,65 +90,75 @@
        </div>
     </section>
 
+
      <section class="third-box">
-        <div>
+        <div class="top">
             <h2>Our results speak for themselves</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis hic <br>
-                animi eum architecto ab harum, velit suscipit. Culpa, adipisci.<br>
-                 Aliquid id eius aliquam, labore, reprehenderit non odio ex <br>
-                 cumque incidunt neque necessitatibus laboriosam! Pariatur <br>
-                 reprehenderit sit amet, beatae labore quasi!</p>
+            <p class="long">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis hicanimi eum architecto<br>
+                 ab harum, velit suscipit. Culpa, adipisci.Aliquid id eius aliquam, labore, reprehe<br>
+                 nderit non odio ex cumque incidunt neque necessitatibus laboriosam! Pariatur <br>reprehenderit 
+                 sit amet, beatae labore quasi!</p>
         </div>
 
         <div class="text-on-image">
              <div class=" toi">
-                <img src="" alt="">
+                <img src="images/pentagone.png" width="100" alt="pentagone">
+                  <div class="tom">
                 <p class="text">+2%</p>
-                <p>Lorem, ipsum dolor.</p>
+                <p class="lo">Lorem, ipsum dolor.</p>
+                </div>
              </div>
              <div class=" toi">
-                <img src="" alt="">
+                <img src="images/pentagone.png" width="100" alt="pentagone">
+                <div class="tom">
                 <p class="text">+2%</p>
-                <p>Lorem, ipsum dolor.</p>
+                <p class="lo">Lorem, ipsum dolor.</p>
+                </div>
              </div>
              <div class=" toi">
-                <img src="" alt="">
+                <img src="images/pentagone.png" width="100" alt="pentagone">
+                  <div class="tom">
                 <p class="text">+2%</p>
-                <p>Lorem, ipsum dolor.</p>
+                <p class="lo">Lorem, ipsum dolor.</p>
+                  </div>
              </div>
              <div class=" toi">
-                <img src="" alt="">
+                <img src="images/pentagone.png" width="100" alt="pentagone">
+                   <div class="tom">
                 <p class="text">+2%</p>
-                <p>Lorem, ipsum dolor.</p>
+                <p class="lo">Lorem, ipsum dolor.</p>
+                </div>
              </div>
         </div>
     </section>
 
 
-         <section class="fourth-box">
-        <h2>Contact us</h2>
+
+    <section class="fourth-box">
+        <h2 class="heading">Contact us</h2>
+        <div class="line">
         <label for="name">Name</label>
-        <input type="text" id="name">
+        <input type="text" id="name"  class="name">
         <label for="email">Email</label>
         <input type="email" id="email">
         <label for="email">Your message</label>
         <input type="text" id="message">
-
+          </div>
         <div class="call-to-action">
             <button class="cta-btn">CALL TO ACTION</button>
         </div>
     </section>
 
-    </main>
-
     <footer>
+      <div class="footer">
          <img src="images/logo_headphones.png" alt="LOGO">
-         <p>copyright headphones 2020</p>
-         svg
-         svg
-         svg
+         <p>Copyright headphones 2020</p>
+        <img src="images/facebook.png" width="30" alt="facebook">
+        <img src="images/twitter.png" width="30" alt="twitter">
+        <img src="images/instagram.png" width="30" alt="instagram">
+      </div>
     </footer>
     
-</body>
+<script src="script.js"></script>
 </body>
 </html>

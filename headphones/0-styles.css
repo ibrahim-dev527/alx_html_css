@@ -7,14 +7,20 @@
 
 .hero {
     height: 100vh;
-    background-size: cover;
+   
+   border: 3px solid red;
+background-size: cover;
+background-repeat: no-repeat;
+    background-image: url(images/headphones_hero_1.jpg);
 }
+
+
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
+    margin-bottom: 200px;
     
 }
 
@@ -36,8 +42,9 @@
 
 .content {
     text-align: center;
-    margin-top: 320px;
+    margin-top: 100px;
     color: white;
+    margin-right: 200px;
     
 }
 
@@ -75,8 +82,8 @@
 
 
 body {
-    background-image: url(images/headphones_hero_1.jpg);
-    padding: 10px;
+    
+    padding: 0px;
 }
 
 .close-menu {
